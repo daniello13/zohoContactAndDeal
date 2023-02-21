@@ -1,0 +1,24 @@
+html, body {
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(197, 238, 238);
+ }
+p{
+    text-align: center;
+}
+.plash{
+    margin: 20px;
+}
+#create{
+    width: 50%;
+}
+label{
+    width: 50%;
+}
+#error{
+    font-style: unset;
+    font-family: cursive;
+    font-size: large;
+}

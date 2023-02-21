@@ -1,0 +1,30 @@
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(197, 238, 238);
+ }
+.key_form{
+    display: flex;  
+    justify-content: center; 
+    align-items: center;     
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color:aqua;
+}
+input,
+label {
+    margin: 0.4rem 0;
+}
+input{
+    border: 2px solid black;
+    margin: 3px;
+    text-align: center;
+    border-radius: 5px;
+}
